@@ -1,0 +1,179 @@
+body{
+    padding: 0px 10%;
+}
+
+.nav {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+     /* position: fixed;  */
+
+}
+
+.ho {
+    background-color: orangered;
+}
+
+.nav img {
+    width: 300px;
+    height: 100%;
+}
+
+.nav ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 20px;
+    padding: 5px;
+}
+
+.nav ul a {
+    text-decoration: none;
+    color: thistle;
+    font-size: 20px;
+
+}
+
+/* *********end navbar********* */
+.nick {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+.nick img {
+    width: 70%;
+    height: 100%;
+
+}
+
+/* *****end second div***** */
+.container {
+    padding-top: 30px;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+
+div {
+    display: inline-block;
+    width: 33%;
+    height: 100%;
+
+}
+
+div img {
+    width: 100%;
+    height: 90%;
+}
+
+div h1 {
+    color: orangered;
+    margin: 10px;
+    padding: 10px;
+}
+
+div p {
+    font-size: large;
+    color: dark black;
+    font-weight: bold;
+    margin: 5px;
+    padding: auto;
+}
+
+div button {
+    width: 100px;
+    height: 50px;
+    background-color: orangered;
+    color: white;
+    font-size: large;
+    margin: 10px;
+    padding: 10px;
+    border-color: orangered;
+    border-radius:50%;
+}
+
+/* ****end div 3*** */
+.recent {
+    margin-top: 30px;
+    padding-top: 30px;
+    width: 100%;
+    height: 10px;
+    background-color: white;
+
+}
+
+.recent h3 {
+    font-size: 23px;
+    font-weight: bold;
+    position: relative;
+    color: orangered;
+}
+
+.recent h3::after {
+    content: "";
+    width: 87%;
+    height: 10px;
+    background-color: slategrey;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.container2 {
+    padding-top: 30px;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+
+.character {
+    display: inline-block;
+    width: 33%;
+    height: 100%;
+}
+
+.character img {
+    width: 100%;
+    height: 300px;
+}
+
+.character h1 {
+    color: violet;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.character h2 {
+    color: orangered;
+    text-align: center;
+}
+.container3 {
+    margin-top: 20px;
+    padding-top: 30px;
+    width: 100%;
+    height: 220px;
+    background-color: orangered;
+}
+.word {
+    display: inline-block;
+    width: 33%;
+    height: 100%;
+}
+.word h4{
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+.word p{
+    color: whitesmoke;
+    text-align: center;
+}
